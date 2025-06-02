@@ -1,6 +1,7 @@
-Feature: Test feature
+Feature: Test feature - Navigation
 
-  Scenario: Test scenario
+  @t1
+  Scenario: Open website - Validate navigate to Page
     Given I navigate to website - "https://angular.io/"
     And I click the - "Tutorials" - button
     Then The - "Tutorials" - page is displayed
