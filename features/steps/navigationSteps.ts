@@ -1,6 +1,6 @@
 import {Given, Then} from "@cucumber/cucumber";
 
-Given("I navigate to angular website - {string}", async function (website: string) {
+Given("I navigate to website - {string}", async function (website: string) {
     this.page = await this.browser.pages().then(e => e[0]);
     await this.page.goto(website, {waitUntil: "networkidle2"});
 });
