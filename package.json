@@ -1,0 +1,17 @@
+{
+  "name": "cucumber-puppeteer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --require-module ts-node/register"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.3.0",
+    "puppeteer": "^24.10.0",
+    "ts-node": "^10.9.2"
+  }
+}
