@@ -5,11 +5,6 @@ Given("I navigate to angular website - {string}", async function (website: strin
     await this.page.goto(website, {waitUntil: "networkidle2"});
 });
 
-Given("I click the LEARN MORE button", async function () {
-    await this.page.waitForSelector("xpath///a[contains (text(), 'Learn more')]", {visible: true})
-        .then(button => button.click());
-});
-
 Given("I click the - {string} - button", async function (page: string) {
     await this.page.waitForSelector(`xpath///a[span[contains(text(), '${page}')]]`, {visible: true})
         .then(button => button.click());
