@@ -1,10 +1,10 @@
-# 🧪 Cucumber + Puppeteer E2E Testing Framework
+# Cucumber + Puppeteer E2E Testing Framework
 
 A lightweight end-to-end (E2E) test automation framework combining [Cucumber.js](https://github.com/cucumber/cucumber-js) for Behavior-Driven Development (BDD) and [Puppeteer](https://pptr.dev/) for browser automation.
 
 ---
 
-## ⚡ Quick Start Guide
+## Quick Start Guide
 
 ### 1. Clone the Project
 
@@ -43,7 +43,7 @@ Define corresponding step definitions in `features/step_definitions/`.
 
 ---
 
-## 🧱 Project Structure
+## Project Structure
 
 ```bash
 .
@@ -60,7 +60,7 @@ Define corresponding step definitions in `features/step_definitions/`.
 
 ---
 
-## ✅ TODO
+## TODO
 
 - [ ] **Create Page Objects**
     - Add `pages/` folder and define reusable classes for common page interactions.
@@ -82,7 +82,7 @@ Define corresponding step definitions in `features/step_definitions/`.
 
 ---
 
-## 📸 Screenshot on Failure (Planned)
+## Screenshot on Failure (Planned)
 
 In `features/support/hooks.ts`:
 
@@ -102,20 +102,4 @@ After(async function (scenario) {
 });
 ```
 
----
 
-## 📄 License
-
-MIT License
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please fork the repo and submit a pull request.
-
----
-
-## 📬 Questions?
-
-Open an issue on [GitHub](https://github.com/ivars-p/cucumber-puppeteer/issues).
